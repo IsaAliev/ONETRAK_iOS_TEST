@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED1CB851F10E69700F3F82D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED1CB841F10E69700F3F82D /* main.m */; };
+		CED1CB881F10E69700F3F82D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED1CB871F10E69700F3F82D /* AppDelegate.m */; };
+		CED1CB8B1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CED1CB891F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodeld */; };
+		CED1CB8E1F10E69700F3F82D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED1CB8D1F10E69700F3F82D /* MasterViewController.m */; };
+		CED1CB911F10E69700F3F82D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED1CB901F10E69700F3F82D /* DetailViewController.m */; };
+		CED1CB941F10E69700F3F82D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED1CB921F10E69700F3F82D /* Main.storyboard */; };
+		CED1CB961F10E69700F3F82D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED1CB951F10E69700F3F82D /* Assets.xcassets */; };
+		CED1CB991F10E69700F3F82D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED1CB971F10E69700F3F82D /* LaunchScreen.storyboard */; };
+		CED1CBA41F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED1CBA31F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED1CBA01F10E69700F3F82D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED1CB781F10E69600F3F82D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED1CB7F1F10E69600F3F82D;
+			remoteInfo = ONETRAK_iOS_TEST_Aliev_Isa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CED1CB801F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ONETRAK_iOS_TEST_Aliev_Isa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED1CB841F10E69700F3F82D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CED1CB861F10E69700F3F82D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CED1CB871F10E69700F3F82D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CED1CB8A1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodel; sourceTree = "<group>"; };
+		CED1CB8C1F10E69700F3F82D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CED1CB8D1F10E69700F3F82D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CED1CB8F1F10E69700F3F82D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CED1CB901F10E69700F3F82D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CED1CB931F10E69700F3F82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED1CB951F10E69700F3F82D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED1CB981F10E69700F3F82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED1CB9A1F10E69700F3F82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED1CB9F1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONETRAK_iOS_TEST_Aliev_IsaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED1CBA31F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONETRAK_iOS_TEST_Aliev_IsaTests.m; sourceTree = "<group>"; };
+		CED1CBA51F10E69700F3F82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED1CB7D1F10E69600F3F82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED1CB9C1F10E69700F3F82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED1CB771F10E69600F3F82D = {
+			isa = PBXGroup;
+			children = (
+				CED1CB821F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa */,
+				CED1CBA21F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests */,
+				CED1CB811F10E69700F3F82D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED1CB811F10E69700F3F82D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED1CB801F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.app */,
+				CED1CB9F1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED1CB821F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa */ = {
+			isa = PBXGroup;
+			children = (
+				CED1CB861F10E69700F3F82D /* AppDelegate.h */,
+				CED1CB871F10E69700F3F82D /* AppDelegate.m */,
+				CED1CB8C1F10E69700F3F82D /* MasterViewController.h */,
+				CED1CB8D1F10E69700F3F82D /* MasterViewController.m */,
+				CED1CB8F1F10E69700F3F82D /* DetailViewController.h */,
+				CED1CB901F10E69700F3F82D /* DetailViewController.m */,
+				CED1CB921F10E69700F3F82D /* Main.storyboard */,
+				CED1CB951F10E69700F3F82D /* Assets.xcassets */,
+				CED1CB971F10E69700F3F82D /* LaunchScreen.storyboard */,
+				CED1CB9A1F10E69700F3F82D /* Info.plist */,
+				CED1CB891F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodeld */,
+				CED1CB831F10E69700F3F82D /* Supporting Files */,
+			);
+			path = ONETRAK_iOS_TEST_Aliev_Isa;
+			sourceTree = "<group>";
+		};
+		CED1CB831F10E69700F3F82D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED1CB841F10E69700F3F82D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED1CBA21F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED1CBA31F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests.m */,
+				CED1CBA51F10E69700F3F82D /* Info.plist */,
+			);
+			path = ONETRAK_iOS_TEST_Aliev_IsaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED1CB7F1F10E69600F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED1CBA81F10E69700F3F82D /* Build configuration list for PBXNativeTarget "ONETRAK_iOS_TEST_Aliev_Isa" */;
+			buildPhases = (
+				CED1CB7C1F10E69600F3F82D /* Sources */,
+				CED1CB7D1F10E69600F3F82D /* Frameworks */,
+				CED1CB7E1F10E69600F3F82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ONETRAK_iOS_TEST_Aliev_Isa;
+			productName = ONETRAK_iOS_TEST_Aliev_Isa;
+			productReference = CED1CB801F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED1CB9E1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED1CBAB1F10E69700F3F82D /* Build configuration list for PBXNativeTarget "ONETRAK_iOS_TEST_Aliev_IsaTests" */;
+			buildPhases = (
+				CED1CB9B1F10E69700F3F82D /* Sources */,
+				CED1CB9C1F10E69700F3F82D /* Frameworks */,
+				CED1CB9D1F10E69700F3F82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED1CBA11F10E69700F3F82D /* PBXTargetDependency */,
+			);
+			name = ONETRAK_iOS_TEST_Aliev_IsaTests;
+			productName = ONETRAK_iOS_TEST_Aliev_IsaTests;
+			productReference = CED1CB9F1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED1CB781F10E69600F3F82D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ISA;
+				TargetAttributes = {
+					CED1CB7F1F10E69600F3F82D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8WY4UX44X6;
+						ProvisioningStyle = Automatic;
+					};
+					CED1CB9E1F10E69700F3F82D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8WY4UX44X6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CED1CB7F1F10E69600F3F82D;
+					};
+				};
+			};
+			buildConfigurationList = CED1CB7B1F10E69600F3F82D /* Build configuration list for PBXProject "ONETRAK_iOS_TEST_Aliev_Isa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED1CB771F10E69600F3F82D;
+			productRefGroup = CED1CB811F10E69700F3F82D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED1CB7F1F10E69600F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa */,
+				CED1CB9E1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED1CB7E1F10E69600F3F82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED1CB991F10E69700F3F82D /* LaunchScreen.storyboard in Resources */,
+				CED1CB961F10E69700F3F82D /* Assets.xcassets in Resources */,
+				CED1CB941F10E69700F3F82D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED1CB9D1F10E69700F3F82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED1CB7C1F10E69600F3F82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED1CB911F10E69700F3F82D /* DetailViewController.m in Sources */,
+				CED1CB8E1F10E69700F3F82D /* MasterViewController.m in Sources */,
+				CED1CB881F10E69700F3F82D /* AppDelegate.m in Sources */,
+				CED1CB8B1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodeld in Sources */,
+				CED1CB851F10E69700F3F82D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED1CB9B1F10E69700F3F82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED1CBA41F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED1CBA11F10E69700F3F82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED1CB7F1F10E69600F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa */;
+			targetProxy = CED1CBA01F10E69700F3F82D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED1CB921F10E69700F3F82D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED1CB931F10E69700F3F82D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED1CB971F10E69700F3F82D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED1CB981F10E69700F3F82D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED1CBA61F10E69700F3F82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CED1CBA71F10E69700F3F82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED1CBA91F10E69700F3F82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8WY4UX44X6;
+				INFOPLIST_FILE = ONETRAK_iOS_TEST_Aliev_Isa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ialiev.ONETRAK-iOS-TEST-Aliev-Isa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CED1CBAA1F10E69700F3F82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8WY4UX44X6;
+				INFOPLIST_FILE = ONETRAK_iOS_TEST_Aliev_Isa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ialiev.ONETRAK-iOS-TEST-Aliev-Isa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CED1CBAC1F10E69700F3F82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8WY4UX44X6;
+				INFOPLIST_FILE = ONETRAK_iOS_TEST_Aliev_IsaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ialiev.ONETRAK-iOS-TEST-Aliev-IsaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ONETRAK_iOS_TEST_Aliev_Isa.app/ONETRAK_iOS_TEST_Aliev_Isa";
+			};
+			name = Debug;
+		};
+		CED1CBAD1F10E69700F3F82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8WY4UX44X6;
+				INFOPLIST_FILE = ONETRAK_iOS_TEST_Aliev_IsaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ialiev.ONETRAK-iOS-TEST-Aliev-IsaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ONETRAK_iOS_TEST_Aliev_Isa.app/ONETRAK_iOS_TEST_Aliev_Isa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED1CB7B1F10E69600F3F82D /* Build configuration list for PBXProject "ONETRAK_iOS_TEST_Aliev_Isa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED1CBA61F10E69700F3F82D /* Debug */,
+				CED1CBA71F10E69700F3F82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED1CBA81F10E69700F3F82D /* Build configuration list for PBXNativeTarget "ONETRAK_iOS_TEST_Aliev_Isa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED1CBA91F10E69700F3F82D /* Debug */,
+				CED1CBAA1F10E69700F3F82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CED1CBAB1F10E69700F3F82D /* Build configuration list for PBXNativeTarget "ONETRAK_iOS_TEST_Aliev_IsaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED1CBAC1F10E69700F3F82D /* Debug */,
+				CED1CBAD1F10E69700F3F82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CED1CB891F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CED1CB8A1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodel */,
+			);
+			currentVersion = CED1CB8A1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodel */;
+			path = ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CED1CB781F10E69600F3F82D /* Project object */;
+}
