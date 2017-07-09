@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2F97361F1226300094335D /* UITextField+DisableCopyPaste.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2F97351F1226300094335D /* UITextField+DisableCopyPaste.m */; };
 		CE344B0A1F1150AE0012B5EC /* IAColoredSelectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE344B091F1150AE0012B5EC /* IAColoredSelectionCell.m */; };
 		CE344B0E1F1219180012B5EC /* IAErrorPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE344B0D1F1219180012B5EC /* IAErrorPresenter.m */; };
 		CE3C49971F10F386005D1A99 /* IADailyResult+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C49941F10F386005D1A99 /* IADailyResult+CoreDataClass.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE2F97341F1226300094335D /* UITextField+DisableCopyPaste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+DisableCopyPaste.h"; sourceTree = "<group>"; };
+		CE2F97351F1226300094335D /* UITextField+DisableCopyPaste.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DisableCopyPaste.m"; sourceTree = "<group>"; };
 		CE344B081F1150AE0012B5EC /* IAColoredSelectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAColoredSelectionCell.h; sourceTree = "<group>"; };
 		CE344B091F1150AE0012B5EC /* IAColoredSelectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAColoredSelectionCell.m; sourceTree = "<group>"; };
 		CE344B0C1F1219180012B5EC /* IAErrorPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAErrorPresenter.h; sourceTree = "<group>"; };
@@ -87,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2F97371F12263C0094335D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CE2F97341F1226300094335D /* UITextField+DisableCopyPaste.h */,
+				CE2F97351F1226300094335D /* UITextField+DisableCopyPaste.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		CE344B0B1F1157F20012B5EC /* Data Management */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +184,7 @@
 				CE344B0F1F121CD30012B5EC /* Custom Views */,
 				CE344B101F121CE00012B5EC /* Presenters */,
 				CED1CBB71F10F14700F3F82D /* Models */,
+				CE2F97371F12263C0094335D /* Categories */,
 			);
 			path = ONETRAK_iOS_TEST_Aliev_Isa;
 			sourceTree = "<group>";
@@ -312,6 +325,7 @@
 				CE3C49971F10F386005D1A99 /* IADailyResult+CoreDataClass.m in Sources */,
 				CED1CB8E1F10E69700F3F82D /* IAMainViewController.m in Sources */,
 				CED1CB881F10E69700F3F82D /* AppDelegate.m in Sources */,
+				CE2F97361F1226300094335D /* UITextField+DisableCopyPaste.m in Sources */,
 				CE3C49A21F110934005D1A99 /* IASegmentedView.m in Sources */,
 				CE3C499B1F1103A8005D1A99 /* IADailyResultInformationCell.m in Sources */,
 				CED1CBB01F10EA0800F3F82D /* IADataManager.m in Sources */,
