@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE344B0A1F1150AE0012B5EC /* IAColoredSelectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE344B091F1150AE0012B5EC /* IAColoredSelectionCell.m */; };
+		CE344B0E1F1219180012B5EC /* IAErrorPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE344B0D1F1219180012B5EC /* IAErrorPresenter.m */; };
+		CE3C49971F10F386005D1A99 /* IADailyResult+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C49941F10F386005D1A99 /* IADailyResult+CoreDataClass.m */; };
+		CE3C49981F10F386005D1A99 /* IADailyResult+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C49961F10F386005D1A99 /* IADailyResult+CoreDataProperties.m */; };
+		CE3C499B1F1103A8005D1A99 /* IADailyResultInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C499A1F1103A8005D1A99 /* IADailyResultInformationCell.m */; };
+		CE3C499E1F1103E5005D1A99 /* IADailyResultCompletedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C499D1F1103E5005D1A99 /* IADailyResultCompletedCell.m */; };
+		CE3C49A21F110934005D1A99 /* IASegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C49A11F110934005D1A99 /* IASegmentedView.m */; };
 		CED1CB851F10E69700F3F82D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED1CB841F10E69700F3F82D /* main.m */; };
 		CED1CB881F10E69700F3F82D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED1CB871F10E69700F3F82D /* AppDelegate.m */; };
 		CED1CB8B1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CED1CB891F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodeld */; };
-		CED1CB8E1F10E69700F3F82D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED1CB8D1F10E69700F3F82D /* MasterViewController.m */; };
-		CED1CB911F10E69700F3F82D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED1CB901F10E69700F3F82D /* DetailViewController.m */; };
+		CED1CB8E1F10E69700F3F82D /* IAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED1CB8D1F10E69700F3F82D /* IAMainViewController.m */; };
 		CED1CB941F10E69700F3F82D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED1CB921F10E69700F3F82D /* Main.storyboard */; };
 		CED1CB961F10E69700F3F82D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED1CB951F10E69700F3F82D /* Assets.xcassets */; };
 		CED1CB991F10E69700F3F82D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED1CB971F10E69700F3F82D /* LaunchScreen.storyboard */; };
 		CED1CBA41F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED1CBA31F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests.m */; };
+		CED1CBB01F10EA0800F3F82D /* IADataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CED1CBAF1F10EA0800F3F82D /* IADataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,15 +36,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE344B081F1150AE0012B5EC /* IAColoredSelectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAColoredSelectionCell.h; sourceTree = "<group>"; };
+		CE344B091F1150AE0012B5EC /* IAColoredSelectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAColoredSelectionCell.m; sourceTree = "<group>"; };
+		CE344B0C1F1219180012B5EC /* IAErrorPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAErrorPresenter.h; sourceTree = "<group>"; };
+		CE344B0D1F1219180012B5EC /* IAErrorPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAErrorPresenter.m; sourceTree = "<group>"; };
+		CE3C49931F10F386005D1A99 /* IADailyResult+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IADailyResult+CoreDataClass.h"; path = "ONETRAK_iOS_TEST_Aliev_Isa/IADailyResult+CoreDataClass.h"; sourceTree = "<group>"; };
+		CE3C49941F10F386005D1A99 /* IADailyResult+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IADailyResult+CoreDataClass.m"; path = "ONETRAK_iOS_TEST_Aliev_Isa/IADailyResult+CoreDataClass.m"; sourceTree = "<group>"; };
+		CE3C49951F10F386005D1A99 /* IADailyResult+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IADailyResult+CoreDataProperties.h"; path = "ONETRAK_iOS_TEST_Aliev_Isa/IADailyResult+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE3C49961F10F386005D1A99 /* IADailyResult+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IADailyResult+CoreDataProperties.m"; path = "ONETRAK_iOS_TEST_Aliev_Isa/IADailyResult+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE3C49991F1103A8005D1A99 /* IADailyResultInformationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IADailyResultInformationCell.h; sourceTree = "<group>"; };
+		CE3C499A1F1103A8005D1A99 /* IADailyResultInformationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IADailyResultInformationCell.m; sourceTree = "<group>"; };
+		CE3C499C1F1103E5005D1A99 /* IADailyResultCompletedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IADailyResultCompletedCell.h; sourceTree = "<group>"; };
+		CE3C499D1F1103E5005D1A99 /* IADailyResultCompletedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IADailyResultCompletedCell.m; sourceTree = "<group>"; };
+		CE3C49A01F110934005D1A99 /* IASegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASegmentedView.h; sourceTree = "<group>"; };
+		CE3C49A11F110934005D1A99 /* IASegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASegmentedView.m; sourceTree = "<group>"; };
+		CE3C49A31F1120F3005D1A99 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ONETRAK_iOS_TEST_Aliev_Isa/Constants.h; sourceTree = "<group>"; };
 		CED1CB801F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ONETRAK_iOS_TEST_Aliev_Isa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED1CB841F10E69700F3F82D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CED1CB861F10E69700F3F82D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CED1CB871F10E69700F3F82D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CED1CB8A1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodel; sourceTree = "<group>"; };
-		CED1CB8C1F10E69700F3F82D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		CED1CB8D1F10E69700F3F82D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		CED1CB8F1F10E69700F3F82D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		CED1CB901F10E69700F3F82D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CED1CB8C1F10E69700F3F82D /* IAMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAMainViewController.h; sourceTree = "<group>"; };
+		CED1CB8D1F10E69700F3F82D /* IAMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAMainViewController.m; sourceTree = "<group>"; };
 		CED1CB931F10E69700F3F82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED1CB951F10E69700F3F82D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED1CB981F10E69700F3F82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -45,6 +65,8 @@
 		CED1CB9F1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONETRAK_iOS_TEST_Aliev_IsaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED1CBA31F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONETRAK_iOS_TEST_Aliev_IsaTests.m; sourceTree = "<group>"; };
 		CED1CBA51F10E69700F3F82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED1CBAE1F10EA0800F3F82D /* IADataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IADataManager.h; sourceTree = "<group>"; };
+		CED1CBAF1F10EA0800F3F82D /* IADataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IADataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +87,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE344B0B1F1157F20012B5EC /* Data Management */ = {
+			isa = PBXGroup;
+			children = (
+				CED1CBAE1F10EA0800F3F82D /* IADataManager.h */,
+				CED1CBAF1F10EA0800F3F82D /* IADataManager.m */,
+			);
+			name = "Data Management";
+			sourceTree = "<group>";
+		};
+		CE344B0F1F121CD30012B5EC /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C49A01F110934005D1A99 /* IASegmentedView.h */,
+				CE3C49A11F110934005D1A99 /* IASegmentedView.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		CE344B101F121CE00012B5EC /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				CE344B0C1F1219180012B5EC /* IAErrorPresenter.h */,
+				CE344B0D1F1219180012B5EC /* IAErrorPresenter.m */,
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		CE344B111F121CEF0012B5EC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CED1CB8C1F10E69700F3F82D /* IAMainViewController.h */,
+				CED1CB8D1F10E69700F3F82D /* IAMainViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CE3C499F1F1103F0005D1A99 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C49991F1103A8005D1A99 /* IADailyResultInformationCell.h */,
+				CE3C499A1F1103A8005D1A99 /* IADailyResultInformationCell.m */,
+				CE3C499C1F1103E5005D1A99 /* IADailyResultCompletedCell.h */,
+				CE3C499D1F1103E5005D1A99 /* IADailyResultCompletedCell.m */,
+				CE344B081F1150AE0012B5EC /* IAColoredSelectionCell.h */,
+				CE344B091F1150AE0012B5EC /* IAColoredSelectionCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		CED1CB771F10E69600F3F82D = {
 			isa = PBXGroup;
 			children = (
 				CED1CB821F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa */,
+				CE3C49A31F1120F3005D1A99 /* Constants.h */,
 				CED1CBA21F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_IsaTests */,
 				CED1CB811F10E69700F3F82D /* Products */,
 			);
@@ -88,16 +160,18 @@
 			children = (
 				CED1CB861F10E69700F3F82D /* AppDelegate.h */,
 				CED1CB871F10E69700F3F82D /* AppDelegate.m */,
-				CED1CB8C1F10E69700F3F82D /* MasterViewController.h */,
-				CED1CB8D1F10E69700F3F82D /* MasterViewController.m */,
-				CED1CB8F1F10E69700F3F82D /* DetailViewController.h */,
-				CED1CB901F10E69700F3F82D /* DetailViewController.m */,
+				CE344B111F121CEF0012B5EC /* View Controllers */,
 				CED1CB921F10E69700F3F82D /* Main.storyboard */,
 				CED1CB951F10E69700F3F82D /* Assets.xcassets */,
 				CED1CB971F10E69700F3F82D /* LaunchScreen.storyboard */,
 				CED1CB9A1F10E69700F3F82D /* Info.plist */,
 				CED1CB891F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodeld */,
 				CED1CB831F10E69700F3F82D /* Supporting Files */,
+				CE344B0B1F1157F20012B5EC /* Data Management */,
+				CE3C499F1F1103F0005D1A99 /* Cells */,
+				CE344B0F1F121CD30012B5EC /* Custom Views */,
+				CE344B101F121CE00012B5EC /* Presenters */,
+				CED1CBB71F10F14700F3F82D /* Models */,
 			);
 			path = ONETRAK_iOS_TEST_Aliev_Isa;
 			sourceTree = "<group>";
@@ -117,6 +191,18 @@
 				CED1CBA51F10E69700F3F82D /* Info.plist */,
 			);
 			path = ONETRAK_iOS_TEST_Aliev_IsaTests;
+			sourceTree = "<group>";
+		};
+		CED1CBB71F10F14700F3F82D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C49931F10F386005D1A99 /* IADailyResult+CoreDataClass.h */,
+				CE3C49941F10F386005D1A99 /* IADailyResult+CoreDataClass.m */,
+				CE3C49951F10F386005D1A99 /* IADailyResult+CoreDataProperties.h */,
+				CE3C49961F10F386005D1A99 /* IADailyResult+CoreDataProperties.m */,
+			);
+			name = Models;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,10 +309,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED1CB911F10E69700F3F82D /* DetailViewController.m in Sources */,
-				CED1CB8E1F10E69700F3F82D /* MasterViewController.m in Sources */,
+				CE3C49971F10F386005D1A99 /* IADailyResult+CoreDataClass.m in Sources */,
+				CED1CB8E1F10E69700F3F82D /* IAMainViewController.m in Sources */,
 				CED1CB881F10E69700F3F82D /* AppDelegate.m in Sources */,
+				CE3C49A21F110934005D1A99 /* IASegmentedView.m in Sources */,
+				CE3C499B1F1103A8005D1A99 /* IADailyResultInformationCell.m in Sources */,
+				CED1CBB01F10EA0800F3F82D /* IADataManager.m in Sources */,
+				CE344B0A1F1150AE0012B5EC /* IAColoredSelectionCell.m in Sources */,
+				CE3C499E1F1103E5005D1A99 /* IADailyResultCompletedCell.m in Sources */,
 				CED1CB8B1F10E69700F3F82D /* ONETRAK_iOS_TEST_Aliev_Isa.xcdatamodeld in Sources */,
+				CE344B0E1F1219180012B5EC /* IAErrorPresenter.m in Sources */,
+				CE3C49981F10F386005D1A99 /* IADailyResult+CoreDataProperties.m in Sources */,
 				CED1CB851F10E69700F3F82D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +519,7 @@
 				CED1CBAA1F10E69700F3F82D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CED1CBAB1F10E69700F3F82D /* Build configuration list for PBXNativeTarget "ONETRAK_iOS_TEST_Aliev_IsaTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +528,7 @@
 				CED1CBAD1F10E69700F3F82D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
