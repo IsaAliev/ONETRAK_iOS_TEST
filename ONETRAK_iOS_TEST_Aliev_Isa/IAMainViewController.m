@@ -13,12 +13,16 @@
 #import "IADailyResultInformationCell.h"
 #import "IADailyResultCompletedCell.h"
 
+NSUInteger const fetchSize = 10;
 NSString* const dailyResultCellIdentifier = @"dailyResultCell";
 NSString* const goalReachedCellIdentifier = @"goalReachedCell";
 
 @interface IAMainViewController ()
 
 @property (strong, nonatomic) NSMutableArray* dailyResults;
+@property (assign, nonatomic) NSUInteger newOffset;
+@property (assign, nonatomic) BOOL isAllLoaded;
+
 
 @end
 
@@ -38,7 +42,8 @@ NSString* const goalReachedCellIdentifier = @"goalReachedCell";
     self.tableView.estimatedRowHeight = 100;
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     
-    _dailyResults = [[IADataManager sharedManager] allResults].mutableCopy;
+    _dailyResults = [[IADataManager sharedManager] fetchResultsOfSize:fetchSize withOffset:0].mutableCopy;
+    self.newOffset += fetchSize;
     
 }
 
@@ -46,6 +51,34 @@ NSString* const goalReachedCellIdentifier = @"goalReachedCell";
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)loadResults {
+    
+    NSArray* loadedResults = [[IADataManager sharedManager] fetchResultsOfSize:fetchSize withOffset:self.newOffset];
+    
+    if (loadedResults.count == 0) {
+        _isAllLoaded = TRUE;
+        return;
+    }
+    
+    NSMutableIndexSet* indexSet = [NSMutableIndexSet indexSet];
+    
+    for (int i = (int)_dailyResults.count; i < _dailyResults.count + loadedResults.count; i++) {
+        [indexSet addIndex:i];
+    }
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [_dailyResults addObjectsFromArray:loadedResults];
+        
+        [self.tableView beginUpdates];
+        [self.tableView insertSections:indexSet withRowAnimation:UITableViewRowAnimationAutomatic];
+        [self.tableView endUpdates];
+        
+        self.newOffset += fetchSize;
+    });
+    
+    
 }
 
 
@@ -135,6 +168,14 @@ NSString* const goalReachedCellIdentifier = @"goalReachedCell";
         
         IADailyResult *result = [self.dailyResults objectAtIndex:indexPath.section];
         cell.dailyResult = result;
+        
+        if (indexPath.section == _dailyResults.count - 1 && !_isAllLoaded) {
+            
+            dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+                [self loadResults];
+            });
+            
+        }
         
         return cell;
         

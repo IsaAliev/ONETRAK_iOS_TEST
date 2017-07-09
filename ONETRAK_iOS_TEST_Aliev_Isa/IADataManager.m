@@ -84,9 +84,12 @@ NSString* const kTargetSteps = @"targetStepsKey";
     
 }
 
--(NSArray*)allResults {
+-(NSArray*)fetchResultsOfSize:(NSInteger)size withOffset:(NSUInteger)offset {
     
     NSFetchRequest<IADailyResult *> *fetchRequest = IADailyResult.fetchRequest;
+    
+    fetchRequest.fetchOffset = offset;
+    fetchRequest.fetchLimit = size;
     
     NSSortDescriptor* sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"timestamp" ascending:NO];
     
