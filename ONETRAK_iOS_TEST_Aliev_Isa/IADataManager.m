@@ -84,8 +84,20 @@ NSString* const kTargetSteps = @"targetStepsKey";
     
 }
 
+-(NSArray*)allResults {
+    
+    NSFetchRequest<IADailyResult *> *fetchRequest = IADailyResult.fetchRequest;
+    
+    NSSortDescriptor* sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"timestamp" ascending:NO];
+    
+    fetchRequest.sortDescriptors = @[sortDescriptor];
+    
+    return  [self.persistentContainer.viewContext executeFetchRequest:fetchRequest error:nil];
+    
+}
 
-- (void)insertNewResultOnError:(ErrorHandler)errorHandler; {
+
+- (IADailyResult*)insertNewResultOnError:(ErrorHandler)errorHandler; {
 
     NSManagedObjectContext *context = [self.persistentContainer viewContext];
     IADailyResult *newResult = [[IADailyResult alloc] initWithContext:context];
@@ -111,6 +123,8 @@ NSString* const kTargetSteps = @"targetStepsKey";
         }
 
     }
+    
+    return newResult;
 }
 
 @end

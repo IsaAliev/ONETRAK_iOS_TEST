@@ -53,7 +53,7 @@
     
     // Анимируем прогресс бар при совпадении настоящего времени и времени создания объекта с точностью до секунд
     
-    [self.progressView revealAnimated: res == NSOrderedSame ];
+    [self.progressView revealAnimated: res == NSOrderedSame];
 }
 
 @end

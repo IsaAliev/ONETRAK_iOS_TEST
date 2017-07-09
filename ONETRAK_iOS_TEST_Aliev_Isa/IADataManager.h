@@ -25,8 +25,9 @@ typedef void (^ErrorHandler)(NSError* error);
 - (NSInteger)getTargetSteps;
 
 // DailyResult management
-- (void)insertNewResultOnError:(ErrorHandler)errorHandler;
+- (IADailyResult*)insertNewResultOnError:(ErrorHandler)errorHandler;
 - (NSUInteger)resultsCount;
+-(NSArray*)allResults;
 
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 

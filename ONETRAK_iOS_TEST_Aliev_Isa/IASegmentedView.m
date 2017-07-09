@@ -164,7 +164,7 @@ double const separationWidth = 4;
 }
 
 -(UIBezierPath*)maskUnrevealedRectanglePath {
-    return  [UIBezierPath bezierPathWithRect:CGRectMake(0, 0, 100, CGRectGetHeight(self.bounds))];
+    return  [UIBezierPath bezierPathWithRect:CGRectMake(0, 0, 0, CGRectGetHeight(self.bounds))];
 }
 
 -(UIBezierPath*)maskRevealedPath {
